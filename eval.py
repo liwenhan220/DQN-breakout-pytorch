@@ -59,6 +59,5 @@ def run():
                 
         # print('epsilon: {}, rewards: {}'.format(epsilon.get(), env.reward_total))
 
-import tensorflow as tf
-with tf.device('/cpu:0'):
-    run()
+
+run()

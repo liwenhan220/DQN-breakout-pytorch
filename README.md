@@ -2,7 +2,7 @@
 I recovered my better version of DQN from the older version
 
 # Working requirements
-gym==0.17.0, gym[atari], pytorch, matplotlib
+gym==0.17.0, gym[atari], pytorch, matplotlib, opencv-python
 
 # Train your model
 run `python run.py` will train a model from fresh start

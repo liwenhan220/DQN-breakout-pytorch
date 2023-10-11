@@ -61,7 +61,8 @@ class DQN:
         self.update()
 
     def load(self, name):
-        self.model.load_state_dict(torch.load(name))
+        print(self.device)
+        self.model.load_state_dict(torch.load(name, map_location = torch.device(self.device)))
         self.update()
 
     def create_model(self):
